@@ -1,16 +1,3 @@
-// УРОК 2
-
-let num = 266219;
-    num = num.toString().split('').reduce((prod, current) => prod * parseInt(current), 1);
-    console.log(num);
-
-let num2 = num**3;  
-    console.log(num2);
-    console.log( String(num2).substring(0, 2) );
-
-
-    // УРОК 3
-
 let lang = 'ru';
 
 if (lang === 'ru') console.log( 'Понедельник, Вторник, Среда, Четверг, Пятница, Суббота, Воскресенье' );
@@ -40,4 +27,3 @@ let result = namePerson === 'Артем' ? 'Директор' :
              namePerson === 'Максим' ? 'Преподаватель' :
              'Студент';
 console.log(result);
-
